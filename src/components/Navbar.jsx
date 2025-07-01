@@ -133,6 +133,7 @@ export default function Navbar() {
             {t("navBtn5")}
           </button>
           <button onClick={handleScheduleClick}>{t("navBtn6")}</button>
+          <Link to="/gallery">{t("navBtn8")}</Link>
           <Link
             to="https://drive.google.com/drive/folders/17cavm51xH1_b1T4peaqxZo_2Hh0gqCmp?usp=drive_link"
             target="_blank"

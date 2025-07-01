@@ -16,6 +16,7 @@ import UserAccount from "./pages/UserAccount";
 import LoginPage from "./pages/LoginPage";
 import SignUp from "./pages/SignUp";
 import Payment from "./components/Payment";
+import Gallery from "./pages/Gallery";
 // import PresentationPage from "./pages/PresentationPage";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="home" element={<Home />}>
             <Route index element={<Speakers />} />
           </Route>
+          <Route path="gallery" element={<Gallery />} />
         </Route>
 
         <Route path="/account/login" element={<LoginPage />} />

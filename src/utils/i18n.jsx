@@ -11,6 +11,7 @@ const resources = {
       navBtn5: "Organizers",
       navBtn6: "Schedules",
       navBtn7: "Login",
+      navBtn8: "Gallery",
       bannerText1: "APASL TASHKENT 2025",
       bannerText2:
         "International Experience of National Programs for the elimination of viral hepatitis",
@@ -57,9 +58,9 @@ const resources = {
       welcomeMessage4:
         "It is noteworthy that some countries have taken a leading position in integrating hepatitis control programs into their healthcare systems, while in others, this process is just beginning. We hope that the exchange of international experiences in this field will provide invaluable support to all participants of our event.",
       welcomeMessage5:
-        "Tashkent, a city where the ancient Silk Road meets modern innovation, provides a fitting backdrop for this prestigious event. With its rich history, stunning architecture, and warm hospitality, Tashkent offers a perfect blend of cultural enrichment and professional growth. From the iconic Khast-Imam Complex to the bustling Chorsu Bazaar, the city’s cultural treasures promise to captivate our international guests. Uzbekistan’s renowned culinary delights and its seamless blend of tradition and modernity further enhance the allure of this destination. Conveniently connected by a well-developed transport network and direct international flights, Tashkent ensures ease of access for participants from across the globe.",
+        "Tashkent, a city where the ancient Silk Road meets modern innovation, provides a fitting backdrop for this prestigious event. With its rich history, stunning architecture, and warm hospitality, Tashkent offers a perfect blend of cultural enrichment and professional growth. From the iconic Khast-Imam Complex to the bustling Chorsu Bazaar, the city's cultural treasures promise to captivate our international guests. Uzbekistan's renowned culinary delights and its seamless blend of tradition and modernity further enhance the allure of this destination. Conveniently connected by a well-developed transport network and direct international flights, Tashkent ensures ease of access for participants from across the globe.",
       welcomeMessage6:
-        "We are confident that the APASL 2025 Conference in Tashkent will serve as a crucial milestone in fostering collaboration among leading experts in hepatology and will help define the steps we need to take together to achieve the WHO`s goals for combating viral hepatitis by 2030.",
+        "We are confident that the APASL 2025 Conference in Tashkent will serve as a crucial milestone in fostering collaboration among leading experts in hepatology and will help define the steps we need to take together to achieve the WHO's goals for combating viral hepatitis by 2030.",
       welcomeMessage7:
         "Join us in Tashkent to engage with colleagues, share your knowledge, and experience the unique hospitality of Uzbekistan.",
       welcomeMessage8:
@@ -80,6 +81,7 @@ const resources = {
       navBtn5: "Организаторы",
       navBtn6: "Расписание",
       navBtn7: "Войти",
+      navBtn8: "Галерея",
       bannerText1: "APASL ТАШКЕНТ 2025",
       bannerText2:
         "Международный опыт национальных программ по ликвидации вирусного гепатита",
@@ -151,19 +153,20 @@ const resources = {
       navBtn5: "Tashkilotchilar",
       navBtn6: "Jadval",
       navBtn7: "Kirish",
+      navBtn8: "Galereya",
       bannerText1: "APASL TOSHKENT 2025",
       bannerText2:
-        "Virusli gepatitni yo‘q qilish bo‘yicha milliy dasturlarning xalqaro tajribasi",
+        "Virusli gepatitni yo'q qilish bo'yicha milliy dasturlarning xalqaro tajribasi",
       bannerText3:
-        "O‘zbekiston gepatologlar assotsiatsiyasi va Ozarbayjon gastroenterologiya va gepatologiya assotsiatsiyasi <1>4-5 iyun, 2025</1>",
+        "O'zbekiston gepatologlar assotsiatsiyasi va Ozarbayjon gastroenterologiya va gepatologiya assotsiatsiyasi <1>4-5 iyun, 2025</1>",
       bannerText4: "Chipta sotib olish",
-      associates1: "O‘zbekiston Respublikasi Sog‘liqni saqlash vazirligi",
+      associates1: "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi",
       associates2:
-        "Epidemiologiya, mikrobiologiya, yuqumli va parazitar kasalliklar bo‘yicha Respublika ixtisoslashtirilgan ilmiy-amaliy tibbiyot markazining Virusologiya ilmiy-tadqiqot instituti",
-      associates3: "O‘zbekiston gepatologlar assotsiatsiyasi",
+        "Epidemiologiya, mikrobiologiya, yuqumli va parazitar kasalliklar bo'yicha Respublika ixtisoslashtirilgan ilmiy-amaliy tibbiyot markazining Virusologiya ilmiy-tadqiqot instituti",
+      associates3: "O'zbekiston gepatologlar assotsiatsiyasi",
       associates4:
         "Ozarbayjon gastroenterologiya va gepatologiya assotsiatsiyasi",
-      eventOutcomes1: "Nega bizga qo‘shilishingiz kerak",
+      eventOutcomes1: "Nega bizga qo'shilishingiz kerak",
       eventOutcomes2: "Tadbir natijalari",
       meetTheKeyOrganizers1: "Asosiy tashkilotchilar bilan tanishing",
       speakers1: "Tinglang",
@@ -172,11 +175,11 @@ const resources = {
       ticket2: "Biletni oling",
       ticket3: "Bilet sotib olish",
       ticket4: "Bilet",
-      ticket5: "Joyida to‘lov qilish mumkin.",
-      ticketModal1: "To‘liq ism-familiya",
+      ticket5: "Joyida to'lov qilish mumkin.",
+      ticketModal1: "To'liq ism-familiya",
       ticketModal2: "Elektron pochta",
       ticketModal3: "Telefon raqam",
-      ticketModal4: "To‘lovga o‘tish",
+      ticketModal4: "To'lovga o'tish",
       schedules1: "Jadval tafsilotlari",
       schedules2: "Jadval",
       footer1: "Facebook",
@@ -190,7 +193,7 @@ const resources = {
       publicoffer: "OMMAVIY OFERTA SHARTNOMASI",
       footer7: "© 2024 Exhibz. Barcha huquqlar himoyalangan",
       footer8: "Sizning emailingiz",
-      welcomeMessage1: "Hurmatli hamkasblar va do‘stlar,",
+      welcomeMessage1: "Hurmatli hamkasblar va do'stlar,",
       welcomeMessage2:
         "Katta mamnuniyat bilan sizni <1>APASL 2025 Konferentsiyasiga</1> taklif qilamiz, u yorqin va tarixiy <2>Toshkent shahrida, O'zbekiston</2>da <3>2025-yil 4-5-iyun</3>da o'tkaziladi.",
       welcomeMessage3:
