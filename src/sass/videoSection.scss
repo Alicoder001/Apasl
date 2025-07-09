@@ -1,0 +1,135 @@
+:root {
+  --color1: #e60013;
+  --color2: #ecf9fc;
+  --color3: #1e1e1e;
+  --color4: #fff6e9;
+}
+
+.videoSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 2%;
+
+  .videoSection_header {
+    text-align: center;
+
+    h1 {
+      color: var(--color3);
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-transform: capitalize;
+      font-size: 40px;
+      margin: 0;
+    }
+  }
+
+  .videoSection_content {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 40px;
+
+    .videoSection_card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 2px 2px 7px gray;
+      overflow: hidden;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      }
+
+      .videoSection_video {
+        width: 100%;
+        height: 280px;
+        position: relative;
+
+        iframe {
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 1024px) {
+  .videoSection {
+    gap: 40px;
+    padding: 40px 2%;
+
+    .videoSection_header {
+      h1 {
+        font-size: 35px;
+      }
+    }
+
+    .videoSection_content {
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 30px;
+
+      .videoSection_card {
+        .videoSection_video {
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .videoSection {
+    gap: 30px;
+    padding: 30px 2%;
+
+    .videoSection_header {
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+    .videoSection_content {
+      grid-template-columns: 1fr;
+      gap: 25px;
+
+      .videoSection_card {
+        .videoSection_video {
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .videoSection {
+    gap: 25px;
+    padding: 25px 4%;
+
+    .videoSection_header {
+      h1 {
+        font-size: 25px;
+      }
+    }
+
+    .videoSection_content {
+      gap: 20px;
+
+      .videoSection_card {
+        .videoSection_video {
+          height: 200px;
+        }
+      }
+    }
+  }
+}

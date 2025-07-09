@@ -7,6 +7,7 @@ import Ticket from "../components/Ticket";
 // import Schedules from "../components/Schedules";
 import WelcomeSpeech from "../components/WelcomeSpeech";
 import MeetTheKeyOrganizers from "../components/MeetTheKeyOrganizers";
+import VideoSection from "../components/VideoSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Associates />
       <WelcomeSpeech />
       <EventOutComes />
+      <VideoSection />
       <MeetTheKeyOrganizers />
       <Outlet />
       <Ticket />

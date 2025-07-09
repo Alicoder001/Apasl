@@ -70,6 +70,7 @@ const resources = {
         "Acad. Erkin Musabayev <1 /> Chair, Association of Hepatologists of Uzbekistan",
       welcomeMessage11:
         "Dr. Gulnara Agayeva <br /> Chair, Association of Hepatologists and Gastroenterologists of Azerbaijan",
+      videos: "Videos",
     },
   },
   ru: {
@@ -142,6 +143,7 @@ const resources = {
         "Акад. Еркин Мусабаев <1 /> Председатель Ассоциации гепатологов Узбекистана",
       welcomeMessage11:
         "Др. Гульнара Агаева <br /> Председатель Ассоциации гепатологов и гастроэнтерологов Азербайджана",
+      videos: "Видео",
     },
   },
   uz: {
