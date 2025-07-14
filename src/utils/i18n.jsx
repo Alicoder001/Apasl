@@ -71,6 +71,8 @@ const resources = {
       welcomeMessage11:
         "Dr. Gulnara Agayeva <br /> Chair, Association of Hepatologists and Gastroenterologists of Azerbaijan",
       videos: "Videos",
+      showMore: "Show More",
+      showLess: "Show Less",
     },
   },
   ru: {
@@ -144,6 +146,8 @@ const resources = {
       welcomeMessage11:
         "Др. Гульнара Агаева <br /> Председатель Ассоциации гепатологов и гастроэнтерологов Азербайджана",
       videos: "Видео",
+      showMore: "Показать больше",
+      showLess: "Показать меньше",
     },
   },
   uz: {
@@ -215,6 +219,9 @@ const resources = {
         "Akad. Erkin Musabayev <1 /> O'zbekiston Gepatologlar Assotsiatsiyasi raisi",
       welcomeMessage11:
         "Dr. Gulnara Agayeva <br /> Ozarbayjon Gepatologlar va Gastroenterologlar Assotsiatsiyasi raisi",
+      videos: "Videolar",
+      showMore: "Ko'proq ko'rsatish",
+      showLess: "Kamroq ko'rsatish",
     },
   },
 };

@@ -32,8 +32,8 @@
     width: 100%;
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 
     .videoSection_card {
       background: white;
@@ -49,7 +49,7 @@
 
       .videoSection_video {
         width: 100%;
-        height: 280px;
+        height: 200px;
         position: relative;
 
         iframe {
@@ -57,6 +57,34 @@
           height: 100%;
           border: none;
         }
+      }
+    }
+  }
+
+  .videoSection_toggle {
+    margin-top: 20px;
+    text-align: center;
+
+    .toggle_button {
+      background: var(--color1);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: capitalize;
+
+      &:hover {
+        background: #cc0011;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(230, 0, 19, 0.3);
+      }
+
+      &:active {
+        transform: translateY(0);
       }
     }
   }
@@ -75,12 +103,12 @@
     }
 
     .videoSection_content {
-      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
 
       .videoSection_card {
         .videoSection_video {
-          height: 250px;
+          height: 220px;
         }
       }
     }
@@ -99,13 +127,20 @@
     }
 
     .videoSection_content {
-      grid-template-columns: 1fr;
-      gap: 25px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
 
       .videoSection_card {
         .videoSection_video {
-          height: 220px;
+          height: 180px;
         }
+      }
+    }
+
+    .videoSection_toggle {
+      .toggle_button {
+        padding: 10px 25px;
+        font-size: 14px;
       }
     }
   }
@@ -123,12 +158,20 @@
     }
 
     .videoSection_content {
-      gap: 20px;
+      grid-template-columns: 1fr;
+      gap: 15px;
 
       .videoSection_card {
         .videoSection_video {
           height: 200px;
         }
+      }
+    }
+
+    .videoSection_toggle {
+      .toggle_button {
+        padding: 10px 20px;
+        font-size: 14px;
       }
     }
   }
